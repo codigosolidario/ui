@@ -17,7 +17,7 @@ Asegúrese de tener instalada la versión 18.13.0 de Node.js en su sistema. Pued
 Clone este repositorio en su máquina local utilizando el siguiente comando:
 
 ```bash
-git clone https://github.com/your-username/ui.git
+git clone https://github.com/codigosolidario/ui.git
 ```
 
 Luego, navegue al directorio del proyecto:
