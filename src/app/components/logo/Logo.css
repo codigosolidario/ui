@@ -1,0 +1,92 @@
+.logo {
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.heart-computer {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+}
+
+.heart::before,
+.heart::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 52px;
+    height: 80px;
+    border-radius: 50px 50px 0 0;
+    background-color: #ff5050;
+
+}
+
+.heart::before {
+    left: 50px;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+
+.heart::after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}
+
+.diskette {
+    width: 100px;
+    height: 100px;
+    background-color: #333333;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hole {
+    width: 24px;
+    height: 24px;
+    background-color: #666666;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.disk {
+    width: 60px;
+    height: 8px;
+    background-color: #666666;
+    border-radius: 2px;
+}
+
+.disk-label {
+    width: 80px;
+    height: 18px;
+    background-color: #999999;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.disk-label span {
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+}

@@ -1,12 +1,12 @@
 import { Fragment } from 'react'
 import './App.css'
+import {Logo} from './app/components/logo/Logo'
 
 function App() {
 
   return (
     <Fragment>
-      <h1>Código Solidario</h1>
-      <h4>Convergemos destrezas de programación para fines benéficos.</h4>
+      <Logo></Logo>
     </Fragment>
   )
 }
