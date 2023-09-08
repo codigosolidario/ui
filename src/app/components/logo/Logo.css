@@ -1,9 +1,8 @@
 .logo {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     position: relative;
 }
-
 .heart-computer {
     width: 100px;
     height: 100px;
@@ -12,13 +11,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 .heart {
     position: relative;
     width: 100px;
     height: 90px;
 }
-
 .heart::before,
 .heart::after {
     content: "";
@@ -28,7 +25,6 @@
     height: 80px;
     border-radius: 50px 50px 0 0;
     background-color: #ff5050;
-
 }
 
 .heart::before {
